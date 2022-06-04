@@ -1,14 +1,6 @@
 .program-section{
     background-color: #040470;
 }
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-left: 5em;
-}
-.row content{
-    padding-left: 5em;
+.cardcard-details{
+    background-color: aliceblue;
 }
