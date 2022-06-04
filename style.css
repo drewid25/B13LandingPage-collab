@@ -1,0 +1,24 @@
+.title {
+    font-weight: bold;
+    color: #243A73;
+}
+
+.step-1 {
+  background-color: #fc802e7e;
+  border-radius: 2em;
+  padding: 0.2rem 1rem;
+}
+
+.lightbox {
+  text-decoration: none;
+  background-color: #fc802e;
+  color: #fff;
+  border-radius: 2em;
+}
+
+.lightbox:hover {
+  text-decoration: none;
+  color: #fc802e;
+  background-color: #fff;
+  border: 1px solid #fc802e;
+}
