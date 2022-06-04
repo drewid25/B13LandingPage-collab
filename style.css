@@ -4,14 +4,14 @@
 }
 
 .step-1 {
-  background-color: #fc802e7e;
+  background-color: #f0884273;
   border-radius: 2em;
   padding: 0.2rem 1rem;
 }
 
 .lightbox {
   text-decoration: none;
-  background-color: #fc802e;
+  background-color: #F08842;
   color: #fff;
   border-radius: 2em;
 }
@@ -20,5 +20,5 @@
   text-decoration: none;
   color: #fc802e;
   background-color: #fff;
-  border: 1px solid #fc802e;
+  border: 1px solid #F08842;
 }
