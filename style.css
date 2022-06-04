@@ -1,0 +1,50 @@
+html{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";    
+}
+/* hero section start*/
+.header{
+    background: url(https://htmlrev.com/preview/kora/images/header-background.png) center center no-repeat;
+    background-size: cover;
+}
+
+/* hero buttons end*/
+.btn_signup{
+    background-color: #ff6c02;
+    color: white;
+    border: 1px solid #ff6c02;
+}
+.btn_signup:hover{
+    background-color: white;
+    color: #ff6c02;
+    border: 1px solid #ff6c02;
+}
+.btn_discover{
+    background-color: white;
+    color: #ff6c02;
+    border: 1px solid #ff6c02;
+}
+.btn_discover:hover{
+    background-color: #ff6c02;
+    color: white;
+    border: 1px solid #ff6c02;
+}
+
+/* hero texts end*/
+.hero h1{
+    color: #1e266d;
+    font-weight: 700;
+    font-size: 3.25rem;
+    line-height: 4.5rem;
+    letter-spacing: -0.7px;
+}
+.hero p{
+    color: #515867;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+@media (max-width: 800px) {
+    .hero{
+        text-align: center;
+    }
+}
+/* hero section end*/
