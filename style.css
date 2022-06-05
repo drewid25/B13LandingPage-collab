@@ -1,3 +1,29 @@
+
+.title {
+    font-weight: bold;
+    color: #243A73;
+}
+
+.step-1 {
+  background-color: #f0884273;
+  border-radius: 2em;
+  padding: 0.2rem 1rem;
+}
+
+.lightbox {
+  text-decoration: none;
+  background-color: #F08842;
+  color: #fff;
+  border-radius: 2em;
+}
+
+.lightbox:hover {
+  text-decoration: none;
+  color: #fc802e;
+  background-color: #fff;
+  border: 1px solid #F08842;
+}
+
 .background{
     background-color:#E26612 ;
     color:#fff;
@@ -23,3 +49,4 @@ h2{
     background-color: white;
     color: #ff6c02;
 }
+
