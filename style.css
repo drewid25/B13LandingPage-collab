@@ -1,3 +1,4 @@
+
 .title {
     font-weight: bold;
     color: #243A73;
@@ -22,3 +23,30 @@
   background-color: #fff;
   border: 1px solid #F08842;
 }
+
+.background{
+    background-color:#E26612 ;
+    color:#fff;
+    border-radius: 20px;
+    padding:.5rem 2rem
+}
+h2{
+    color:#fff;
+}
+.buttonHov{
+    border:1px solid #ff6c02;
+    border-radius: 32px;
+    background-color: #ff6c02;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+    
+}
+.buttonHov1:hover{
+    background-color: white;
+    color: #ff6c02;
+}
+
