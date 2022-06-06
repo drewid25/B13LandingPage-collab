@@ -1,47 +1,124 @@
-*{
-padding: 0;
-margin: 0;
-text-decoration: none; 
-list-style: none;
-box-sizing: border-box;
-}
-.body{
-    font-family: montserrat;
-} 
 
-nav{
-    background: white;
- 
-}
-.nav-title{
-    color: #ff0000;
-
+.btn-cta:hover{
+    background-color: #fff;
+    color:#040470;
 }
 
-.testing a{
-    font-size: 25px;
-    color:darkblue;
-    font-weight: 350;
 
+.title {
+    font-weight: bold;
+    color: #243A73;
 }
 
-.testing a:hover{
-    color: #F08842;
+.step-1 {
+  background-color: #f0884273;
+  border-radius: 2em;
+  padding: 0.2rem 1rem;
 }
-.first{
-    color: darkblue;
-    font-size: 50px;
-    font: weight 500px;
 
+.lightbox {
+  text-decoration: none;
+  background-color: #F08842;
+  color: #fff;
+  border-radius: 2em;
 }
-.button{
-    font-size: 25px;
+
+.lightbox:hover {
+  text-decoration: none;
+  color: #fc802e;
+  background-color: #fff;
+  border: 1px solid #F08842;
+}
+
+.background{
+    background-color:#E26612 ;
+    color:#fff;
+    border-radius: 20px;
+    padding:.5rem 2rem
+}
+h2{
+    color:#fff;
+}
+.buttonHov{
+    border:1px solid #ff6c02;
+    border-radius: 32px;
+    background-color: #ff6c02;
     color: white;
-    font-weight: 350;
-    border-radius: 30px;
-    border-color: darkblue;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+    
 }
-.button:hover{
-    background: white;
-    color: blue;
+.buttonHov1:hover{
+    background-color: white;
+    color: #ff6c02;
 }
+
+
+.program-section{
+    background-color: #040470;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.card-title{
+   padding-bottom: 10px;
+}
+.fa-solid{
+    color: orange;
+    border-style: double;
+    border: #3232a0;
+    border-radius: 50%;
+}
+
+html{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";    
+}
+/* hero section start*/
+.header{
+    background: url(https://htmlrev.com/preview/kora/images/header-background.png) center center no-repeat;
+    background-size: cover;
+}
+
+/* hero buttons end*/
+.btn_signup{
+    background-color: #ff6c02;
+    color: white;
+    border: 1px solid #ff6c02;
+}
+.btn_signup:hover{
+    background-color: white;
+    color: #ff6c02;
+    border: 1px solid #ff6c02;
+}
+.btn_discover{
+    background-color: white;
+    color: #ff6c02;
+    border: 1px solid #ff6c02;
+}
+.btn_discover:hover{
+    background-color: #ff6c02;
+    color: white;
+    border: 1px solid #ff6c02;
+}
+
+
+.hero h1{
+    color: #1e266d;
+    font-weight: 700;
+    font-size: 3.25rem;
+    line-height: 4.5rem;
+    letter-spacing: -0.7px;
+}
+.hero p{
+    color: #515867;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+@media (max-width: 800px) {
+    .hero{
+        text-align: center;
+    }
+}
+
