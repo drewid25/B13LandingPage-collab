@@ -1,3 +1,47 @@
-.heading{
-    
+*{
+padding: 0;
+margin: 0;
+text-decoration: none; 
+list-style: none;
+box-sizing: border-box;
+}
+.body{
+    font-family: montserrat;
+} 
+
+nav{
+    background: white;
+ 
+}
+.nav-title{
+    color: #ff0000;
+
+}
+
+.testing a{
+    font-size: 25px;
+    color:darkblue;
+    font-weight: 350;
+
+}
+
+.testing a:hover{
+    color: #F08842;
+}
+.first{
+    color: darkblue;
+    font-size: 50px;
+    font: weight 500px;
+
+}
+.button{
+    font-size: 25px;
+    color: white;
+    font-weight: 350;
+    border-radius: 30px;
+    border-color: darkblue;
+}
+.button:hover{
+    background: white;
+    color: blue;
 }
