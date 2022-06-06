@@ -1,3 +1,58 @@
+
+
+
+.title {
+    font-weight: bold;
+    color: #243A73;
+}
+
+.step-1 {
+  background-color: #f0884273;
+  border-radius: 2em;
+  padding: 0.2rem 1rem;
+}
+
+.lightbox {
+  text-decoration: none;
+  background-color: #F08842;
+  color: #fff;
+  border-radius: 2em;
+}
+
+.lightbox:hover {
+  text-decoration: none;
+  color: #fc802e;
+  background-color: #fff;
+  border: 1px solid #F08842;
+}
+
+.background{
+    background-color:#E26612 ;
+    color:#fff;
+    border-radius: 20px;
+    padding:.5rem 2rem
+}
+h2{
+    color:#fff;
+}
+.buttonHov{
+    border:1px solid #ff6c02;
+    border-radius: 32px;
+    background-color: #ff6c02;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+    
+}
+.buttonHov1:hover{
+    background-color: white;
+    color: #ff6c02;
+}
+
+
 .program-section{
     background-color: #040470;
     padding-top: 100px;
@@ -12,3 +67,4 @@
     border: #3232a0;
     border-radius: 50%;
 }
+
